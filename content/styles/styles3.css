@@ -1,3 +1,12 @@
+header {
+    margin-top: -20px;
+    width: auto;
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+    align-items: center;
+}
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -40,6 +49,22 @@ h1 {
 }
 
 .rectangle-birds img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.rectangle-forvideo { 
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    align-items: center;
+}
+.videoframe {
     width: 100%;
     height: auto;
     border-radius: 10px;
